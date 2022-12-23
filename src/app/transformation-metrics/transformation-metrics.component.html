@@ -8,21 +8,81 @@
     <div class="col-12">
       <h2>Delivery Transformation - {{ track }}</h2>
     </div>
-    <div class="col col-xl-6 matrix-box">
-      <div class="matrix-details" *ngFor="let item of matrixData?.summary">
-        <div class="matrix-details__title-section">
-          <p *ngIf="item.like === true || item.like === false">
-            <i *ngIf="item.like === true" class="bi bi-hand-thumbs-up-fill"></i>
-            <i
-              *ngIf="item.like === false"
-              class="bi bi-hand-thumbs-down-fill"
-            ></i>
-          </p>
-          <p>{{ item.title }}:</p>
-          <p>{{ item.description }}</p>
+  </div>
+  <div class="row g-3">
+    <div class="col-12 col-lg-6">
+      <div class="matrix-box">
+        <div
+          class="matrix-details"
+          *ngFor="let item of matrixData?.summary?.slice(0, mid)"
+        >
+          <div class="matrix-details__title-section">
+            <p *ngIf="item.like === true || item.like === false">
+              <i
+                *ngIf="item.like === true"
+                class="bi bi-hand-thumbs-up-fill like-icon"
+              ></i>
+              <i
+                *ngIf="item.like === false"
+                class="bi bi-hand-thumbs-down-fill dislike-icon"
+              ></i>
+            </p>
+            <div class="matrix-details__title-section__content">
+              <p class="matrix-details__title-section__title">
+                {{ item.title }}:&nbsp;
+              </p>
+              <p class="matrix-details__title-section__description">
+                {{ item.description }}
+              </p>
+            </div>
+          </div>
+          <div class="matrix-details__pointers">
+            <div
+              class="matrix-details__pointers__list"
+              *ngFor="let point of item.points"
+            >
+              <i class="bi bi-caret-right-fill"></i>
+              <p>{{ point }}</p>
+            </div>
+          </div>
         </div>
-        <div class="matrix-details__pointers">
-          <div *ngFor="let point of item.points">{{ point }}</div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6">
+      <div class="matrix-box">
+        <div
+          class="matrix-details"
+          *ngFor="let item of matrixData?.summary?.slice(mid + 1, end)"
+        >
+          <div class="matrix-details__title-section">
+            <p *ngIf="item.like === true || item.like === false">
+              <i
+                *ngIf="item.like === true"
+                class="bi bi-hand-thumbs-up-fill like-icon"
+              ></i>
+              <i
+                *ngIf="item.like === false"
+                class="bi bi-hand-thumbs-down-fill dislike-icon"
+              ></i>
+            </p>
+            <div class="matrix-details__title-section__content">
+              <p class="matrix-details__title-section__title">
+                {{ item.title }}:&nbsp;
+              </p>
+              <p class="matrix-details__title-section__description">
+                {{ item.description }}
+              </p>
+            </div>
+          </div>
+          <div class="matrix-details__pointers">
+            <div
+              class="matrix-details__pointers__list"
+              *ngFor="let point of item.points"
+            >
+              <i class="bi bi-caret-right-fill"></i>
+              <p>{{ point }}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

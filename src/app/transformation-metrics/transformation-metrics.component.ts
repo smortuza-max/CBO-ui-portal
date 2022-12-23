@@ -13,6 +13,8 @@ export class TransformationMetricsComponent implements OnInit {
   public track: string = '';
   public year: string = '';
   public matrixData: IMatrix | undefined;
+  public mid = -1;
+  public end = -1;
 
   constructor(private route: ActivatedRoute, private http: HttpClient) {}
 
@@ -25,9 +27,13 @@ export class TransformationMetricsComponent implements OnInit {
   }
 
   fetchData(): void {
-    this.http.get('../../assets/json/data.json').subscribe((data: any) => {
-      console.log(data);
-      this.matrixData = data;
-    });
+    this.http
+      .get<IMatrix>('../../assets/json/data.json')
+      .subscribe((data: IMatrix) => {
+        console.log(data);
+        this.mid = Math.floor(data.summary.length / 2);
+        this.end = data.summary.length;
+        this.matrixData = data;
+      });
   }
 }
