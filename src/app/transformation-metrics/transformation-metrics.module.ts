@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 import { TransformationMetricsComponent } from './transformation-metrics.component';
 
@@ -14,6 +15,6 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [TransformationMetricsComponent],
-  imports: [CommonModule, RouterModule.forChild(routes)],
+  imports: [CommonModule, HttpClientModule, RouterModule.forChild(routes)],
 })
 export class TransformationMetricsModule {}

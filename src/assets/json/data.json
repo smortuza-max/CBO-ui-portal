@@ -1,0 +1,42 @@
+{
+  "summary": [
+    {
+      "title": "Revenue Growth vs. Headcount Growth",
+      "description": "In FY23 P2, the value was 32% vs 36%",
+      "points": [
+        "The $ value of staffed revenue has increased by $2M",
+        "There is a slight increase in the headcount from previous period",
+        "Net staffed revenue is $23.8M and headcount is 1K in P3",
+        "Unitypoint Health and Nationwide Mutual Insurance are some of the larger accounts with >$1M revenue and >7K client hours in FY23"
+      ],
+      "like": true
+    },
+    {
+      "title": "Projects not meeting SoC benchmark",
+      "description": "Citigroup and Energy transfers are both above the target SoC",
+      "points": [],
+      "like": true
+    },
+    {
+      "title": "Offshore EM (managed)",
+      "description": "The $ value of Offshore EM ($1.4M) and Managed Revenue ($2.1M) has increased by 13% (EM) and 16% (revenue) in FY23 P2 compared to FY22 P2",
+      "points": [
+        "Offshore contributes to 13% of margin and 9% of the overall CBO revenue",
+        "Liberty Mutual, Vanguard Group and Delta airlines are some of the projects having >$200K offshore revenue and >80% offshore EM in FY23"
+      ],
+      "like": true
+    },
+    {
+      "title": "SmartStarts",
+      "description": "3 out of 7 relevant projects (with avg consulting revenue of $1M) have used Smarts Starts in FY23 P3. Details in SmartStarts Adoption slide",
+      "points": [],
+      "like": false
+    },
+    {
+      "title": "OT staffed projects not using USI",
+      "description": "There are 2 projects not using USI OT with >4K hours in FY23 – Vanguard (Retail Modernization) and Edward Jones (Digital Enablers). Vanguard has presence in all offerings across USI while Edward Jones has no USI presence in any offerings.",
+      "points": [],
+      "like": null
+    }
+  ]
+}

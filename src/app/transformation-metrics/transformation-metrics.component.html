@@ -1,1 +1,30 @@
-<p>transformation-metrics works!</p>
+<div class="container-fluid">
+  <div class="row mb-3">
+    <div class="col">
+      <a routerLink="/" class="links">{{ " < Go Back" }}</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <h2>Delivery Transformation - {{ track }}</h2>
+    </div>
+    <div class="col col-xl-6 matrix-box">
+      <div class="matrix-details" *ngFor="let item of matrixData?.summary">
+        <div class="matrix-details__title-section">
+          <p *ngIf="item.like === true || item.like === false">
+            <i *ngIf="item.like === true" class="bi bi-hand-thumbs-up-fill"></i>
+            <i
+              *ngIf="item.like === false"
+              class="bi bi-hand-thumbs-down-fill"
+            ></i>
+          </p>
+          <p>{{ item.title }}:</p>
+          <p>{{ item.description }}</p>
+        </div>
+        <div class="matrix-details__pointers">
+          <div *ngFor="let point of item.points">{{ point }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
