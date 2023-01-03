@@ -46,45 +46,42 @@
       }
     }
   }
-  
 }
+
 .matrix-table {
-  &-width-50{
-    width:50%;
+  &-width-50 {
+    width: 50%;
   }
-  &-width-12{
-    width:12.5%;
+  &-width-12 {
+    width: 12.5%;
   }
-  &-name-heading{
-    background-color:#012169;
-    color:#ffffff;
+  &-name-heading {
+    background-color: #012169;
+    color: #ffffff;
   }
-  &-other-heading{
-    background-color:#a1d3ef;
+  &-other-heading {
+    background-color: #a1d3ef;
     text-align: center;
-    
   }
-  &-vertical-col{
+  &-vertical-col {
     writing-mode: tb;
     text-align: center;
   }
-  &-vertical-first-col{
+  &-vertical-first-col {
     background-color: #92d050;
     color: white;
   }
-  &-second-third-col{
-    background-color:#e8f6cf;
-    }
-  &-vertical-second-row{
-    background-color:#62b5e5;
-    color:#ffffff;
+  &-second-third-col {
+    background-color: #e8f6cf;
   }
-  &-grey-cells{
-    background-color:#e0f0fa;
-
+  &-vertical-second-row {
+    background-color: #62b5e5;
+    color: #ffffff;
   }
-  &-light-blue{
-    background-color:#e0f0fa;
+  &-grey-cells {
+    background-color: #e0f0fa;
   }
-
+  &-light-blue {
+    background-color: #e0f0fa;
+  }
 }

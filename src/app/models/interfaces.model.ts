@@ -5,6 +5,7 @@ export interface ITrack {
 
 export interface IMatrix {
   summary: ISummary[];
+  matrix_content: IMatrixContent[];
 }
 
 export interface ISummary {
@@ -12,4 +13,24 @@ export interface ISummary {
   description: string;
   points: string[];
   like: boolean | null;
+}
+
+export interface IMatrixContent {
+  section: string;
+  categories: ICatergory;
+}
+
+export interface ICatergory {
+  title: string;
+  subcategories: ISubcategory;
+}
+
+export interface ISubcategory {
+  name: string;
+  columns: IColumns;
+}
+
+export interface IColumns {
+  column_name: string;
+  value: string | null;
 }

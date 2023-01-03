@@ -34,9 +34,392 @@
     },
     {
       "title": "OT staffed projects not using USI",
-      "description": "There are 2 projects not using USI OT with >4K hours in FY23 – Vanguard (Retail Modernization) and Edward Jones (Digital Enablers). Vanguard has presence in all offerings across USI while Edward Jones has no USI presence in any offerings.",
+      "description": "There are 2 projects not using USI OT with >4K hours in FY23 - Vanguard (Retail Modernization) and Edward Jones (Digital Enablers). Vanguard has presence in all offerings across USI while Edward Jones has no USI presence in any offerings.",
       "points": [],
       "like": null
+    }
+  ],
+  "matrix_content": [
+    {
+      "section": "Our Work",
+      "categories": [
+        {
+          "title": "SmartStarts(Overall)",
+          "subcategories": [
+            {
+              "name": "% of new & add-on, relevant projects using SmartStarts",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": "100%"
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "NA"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "50%"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "NA"
+                }
+              ]
+            },
+            {
+              "name": "% of SmartStart Component Usage (in new & add-on, relevant projects using SmartStarts)",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": "80%"
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "NA"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "53%"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "NA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Project Delivery Innovations",
+          "subcategories": [
+            {
+              "name": "# of PDIs, # of times PDIs monetized on projects, PDI Cost Recovery ($M)",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": "12 PDIs, 152-203 times ($8.3M-$11.1M)"
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": null
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": null
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "12 PDIs are monetized 6 times ($225K)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Our Workforce",
+      "categories": [
+        {
+          "title": "Bulge Ratio",
+          "subcategories": [
+            {
+              "name": "Overall",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": "2.3"
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "1.5"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "1.6"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "1.5"
+                }
+              ]
+            },
+            {
+              "name": "USI (GPS + Commercial)",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": null
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "2.26"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "2.41"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "2.41"
+                }
+              ]
+            },
+            {
+              "name": "US Cores",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": null
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "0.04"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "0.04"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "0.04"
+                }
+              ]
+            },
+            {
+              "name": "USDC + PDM + ARDC + MEXICO",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": null
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "1.5"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "1.6"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "1.5"
+                }
+              ]
+            },
+            {
+              "name": "% projects above BR benchmark (weighted)1,# 'GREEN' projects",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": "51%"
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": null
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "31%, 11"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Delivery Center",
+          "subcategories": [
+            {
+              "name": "% of projects using USI, % of USI hours on projects",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": null
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "73%, 79%"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "74%, 77%"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "75%, 79%"
+                }
+              ]
+            },
+            {
+              "name": "% of projects using USDC+PDM+ARDC+MEXICO2% of USDC+PDM+ARDC+MEXICO hours on projects",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": null
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "14%, 6%"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "6%, 6%"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "7%, 7%"
+                }
+              ]
+            },
+            {
+              "name": "% of projects using non-US Core% of non-US Core hours on projects",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": null
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "33%, 76%"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "72%, 76%"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "72%, 79%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Delivery Pool(USI)",
+          "subcategories": [
+            {
+              "name": "# of resources",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": "2121"
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "827"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "1767"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "1767"
+                }
+              ]
+            },
+            {
+              "name": "Hours saving, Cost efficiency",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": null
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "7k,$1.8M"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "13K,$1.5M"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "33k,$4M"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Our Impact",
+      "categories": [
+        {
+          "title": "Engagements",
+          "subcategories": [
+            {
+              "name": "Engagement Margin3 Offshore vs Overall",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": "64% vs 42%"
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "27% vs 21%"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "58% vs 43%"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "57% vs 34%"
+                }
+              ]
+            },
+            {
+              "name": "% sales $ as fixed fee4",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": "75%"
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "19%"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "29%"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "39%"
+                }
+              ]
+            },
+            {
+              "name": "Revenue Growth vs. Headcount Growth",
+              "columns": [
+                {
+                  "column_name": "FY23 Target",
+                  "value": null
+                },
+                {
+                  "column_name": "FY22 P3",
+                  "value": "NA"
+                },
+                {
+                  "column_name": "FY23 P3",
+                  "value": "137% vs 194%"
+                },
+                {
+                  "column_name": "FY23 YTD(P1-P3)",
+                  "value": "188% vs 224%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
